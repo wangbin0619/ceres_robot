@@ -9,6 +9,7 @@ ceres(){
 # in order to have them executed in the session in
 # question. Already open session are not opened again
 # of course.
+# wangbin
 cmux() {
   tmux new -ds roscore
   tmux send -t roscore ceres-host ENTER
